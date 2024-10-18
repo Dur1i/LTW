@@ -1,0 +1,114 @@
+﻿body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+.top-header {
+    width: 100%;
+    height: 70px;
+    margin: 7px;
+    background-color: white;
+}
+.fm-logo {
+    margin: 5px 0px 0px 0px;
+    width: 85px;
+    height: 77px;
+}
+.hidden {
+    display: none;
+}
+
+.top-header-center{
+    display:inline-block;
+    float:left;
+}
+.fm-menu{
+    display:inline-block;
+    float:left;
+    margin: 35px 0px 0px 10px;
+}
+.block-menu {
+    padding: 5px;
+    background-color: white;
+    margin: 5px;
+}
+.block-menu:hover {
+text-decoration: underline
+}
+
+.block-menu1 {
+    padding: 15px;
+    background-color: white;
+    text-decoration: dashed;
+    box-shadow: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.block-menu1:hover {
+    background-color: #d9d9d9;
+}
+
+.fm-menu-a{
+    text-decoration:none;
+    font-size:25px;
+}
+.fm-menu-a {
+    font-family: "Mate SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.top-header-right {
+    display: inline-block;
+    float: right;
+    margin: 35px 10px 0px 0px;
+}
+#second-top-header {
+    max-width: 945px;
+    margin: 0 auto;
+    min-height: 60px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input[type="text"] {
+    width: 70%; 
+    max-width: 600px; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; 
+    font-size: 16px;
+}
+#spnSearch {
+    display: flex;
+    width: 100%;
+    max-width: 600px; 
+    align-items: center;
+}
+.btnSearch {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; 
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnSearch:hover {
+    background-color: #0056b3; 
+}
+
+.btnSearch i {
+    font-size: 18px;
+}
+
