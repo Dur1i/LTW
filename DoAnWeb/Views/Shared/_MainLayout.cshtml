@@ -5,15 +5,43 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-
+    
     <style>
         #header {
             width: 100%;
             margin: 0px;
             padding: 0px;
-            background-color: white;
-            height: 210px;
+            height: 20%;
             
+        }
+        #content{
+            width:85%;
+            margin-left:10%;
+            margin-right:10%;
+            margin-top:50px;
+            height: 1100px;
+        }
+        #footer {
+            width: 100%;
+            margin: 10px 0px 0px 8px;
+            padding: 0px;
+            height: 73px;
+            background-color: brown;
+            clear:both;
+        }
+        .footer-box {
+            background-color: white;
+            padding: 0px;
+            border-radius: 5px;
+            margin: 0; 
+            margin-left:75px;
+            margin-top:10px;
+            float: left;
+            width:500px;            
+        }
+        .footer-box li {
+            list-style-type: none;
+
         }
     </style>
 </head>
@@ -21,10 +49,27 @@
     <div id="header">
         @Html.Partial("_TopHeader")
     </div>
-   
-    
-    <div>
+    <div id="content">
         @RenderBody()
+    </div>
+    <div id="footer">
+        <div class="footer-box">
+            <ul>
+                <li>Mail: <a href="#">contact@abc.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <ul>
+                <li>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <ul>
+                <li>Hotline: +84 123456789</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
